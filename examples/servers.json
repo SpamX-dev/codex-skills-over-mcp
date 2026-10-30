@@ -1,0 +1,10 @@
+{
+  "servers": [
+    {
+      "name": "module-architecture",
+      "command": "node",
+      "args": ["module-architecture-mcp/src/server.mjs"],
+      "cwd": "../.."
+    }
+  ]
+}

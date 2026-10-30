@@ -1,0 +1,23 @@
+{
+  "name": "codex-skill-over-mcp",
+  "version": "0.1.0",
+  "description": "Export MCP skill:// resources into repository-local Codex skills",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpamX-dev/codex-skills-over-mcp.git"
+  },
+  "homepage": "https://github.com/SpamX-dev/codex-skills-over-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/SpamX-dev/codex-skills-over-mcp/issues"
+  },
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "bin": { "codex-skill-over-mcp": "src/cli.mjs" },
+  "files": ["src", "module.md", "README.md"],
+  "scripts": { "test": "node --test" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "yaml": "^2.8.2"
+  }
+}
