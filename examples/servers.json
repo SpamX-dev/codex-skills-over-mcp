@@ -1,9 +1,9 @@
 {
   "servers": [
     {
-      "name": "module-architecture",
+      "name": "plugin-architecture-change-view",
       "command": "node",
-      "args": ["module-architecture-mcp/src/server.mjs"],
+      "args": ["plugin-architecture-change-view/src/server.mjs"],
       "cwd": "../.."
     }
   ]

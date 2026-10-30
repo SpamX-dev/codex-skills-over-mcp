@@ -20,7 +20,7 @@ node src/cli.mjs --config examples/servers.json --destination D:/path/to/project
 
 Пример examples/servers.json рассчитан на расположение пакетов рядом в
 этом рабочем каталоге. Перед запуском установите зависимости
-module-architecture-mcp. Для другого проекта задайте его путь в аргументе
+plugin-architecture-change-view. Для другого проекта задайте его путь в аргументе
 --root сервера и в проектном MCP-подключении Codex.
 
 Конфигурация:
@@ -29,10 +29,10 @@ module-architecture-mcp. Для другого проекта задайте е�
 {
   "servers": [
     {
-      "name": "module-architecture",
+      "name": "plugin-architecture-change-view",
       "command": "node",
       "args": [
-        "D:/projects/dsh.plugins/module-architecture-mcp/src/server.mjs",
+        "D:/projects/dsh.plugins/plugin-architecture-change-view/src/server.mjs",
         "--root",
         "D:/path/to/project"
       ]
@@ -53,7 +53,7 @@ cwd каждого сервера разрешается относительн�
 
 ~~~powershell
 node src/cli.mjs --config examples/servers.json --destination D:/path/to/project/.agents/skills --check
-node src/cli.mjs --config examples/servers.json --destination D:/path/to/project/.agents/skills --server module-architecture
+node src/cli.mjs --config examples/servers.json --destination D:/path/to/project/.agents/skills --server plugin-architecture-change-view
 ~~~
 
 --check ничего не создаёт и не изменяет. Код возврата:
